@@ -14,7 +14,7 @@ function Reg() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post("https://new-cpid.onrender.com/reg", data);
+      await axios.post("https://new-cpid.onrender.com", data);
       alert("Registered successfully");
     } catch (error) {
       console.log(error);
